@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langurdi</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div class="body">
+        <div class="header">
+            <h1 id="fine" onclick="Home()">Langurdi</h1>
+            <img src="/img/moon.png" weight="60px" height="65px" onclick="Home()" />
+            <ul id="list">
+                <li id="login" onclick="Login()">│들어가기</li>
+                <li id="developer">│개발자</li>
+                <li id="setting">│설정</li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="GR">
+                <div id="subtitle">
+                    <h1>오늘의 문법│</h1>
+                    <img src="/img/Gicon.png" weight="30px" height="30px" />
+                </div>
+                <section>
+                    <div id="grammar">
+                        <p style="font-weight: bold; font-size: 20px;">용언과 보조 용언</p>
+                        <hr>
+                        <p>'해 주다'에서 '해'는 용언, '-어 주다'는 보조 용언이라고 하는데,</p>
+                        <p>위는 띄어 씀을 원칙으로 하나, 붙여 쓰는 것도 허용합니다.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="VS">
+                <div id="subtitle">
+                    <h1>기능 모음│</h1>
+                    <img src="/img/FCT.png" weight="30px" height="30px" />
+                </div>
+                <section id="Rsection">
+                    <input type="button" value="맞춤법 퀴즈" onclick="location.href='./Quiz.html'">
+                    <input type="button" value="좋은 맞춤법 검사기" onclick="location.href='http://164.125.7.61/speller/'">
+                    <input type="button" value="국립국어원" onclick="location.href='https://www.korean.go.kr/'">
+                </section>
+            </div>
+
+            <div class="FW">
+                <div id="subtitle">
+                    <h1>자주 틀리는 맞춤법│</h1>
+                    <img src="/img/wrong.png" weight="30px" height="30px" />
+                </div>
+                <section>
+                    <p>· 햇갈리다 vs 헷갈리다(0 조회)</p>
+                    <p>· 그럴 수 밖에 vs 그럴 수밖에(0 조회)</p>
+                </section>
+            </div>
+
+            <div class="CL">
+                <div id="subtitle">
+                    <h1>건의 모음│</h1>
+                    <img src="/img/CP.png" weight="30px" height="30px" />
+                </div>
+                <section>
+                    <p>건의한 내용이 없습니다.</p>
+                </section>
+            </div>
+
+            <div class="BB">
+                <div id="subtitle">
+                    <h1>게시판│</h1>
+                    <img src="/img/BB.png" weight="30px" height="30px" />
+                </div>
+                <section>
+                    <p>내용이 없습니다.</p>
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <div id="complain">
+                <p>Langurdi is related by Hangul Grammar.<br>
+                This site was generated in 2022.</p>
+            </div>
+        </footer>
+    <script>
+        function Login() {
+            location.href="./login.html";
+        }
+
+        function Developer() {
+
+        }
+
+        function Setting() {
+
+        }
+    </script>
+    </div>
+</body>
+</html>

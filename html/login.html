@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="header" onclick="Home()">
+        <h1 id="fine">Langurdi</h1>
+        <img src="../img/moon.png" weight="60px" height="65px" onclick="Home()" />
+    </div>
+
+    <div class="main">
+        <div class="PIC">
+            <section>
+                <img src="../img/AD.png" onclick="AD()" weight="100%" height="100%" />
+            </section>
+        </div>
+
+    <div class="LOG">
+        <section>
+            <form action="./login_check.php" method="POST">
+                <div id="subtitle">
+                    <h1 style="color: black;">들어가기│</h1>
+                </div>
+                <p>신분 증명ㅣ<input type="text" name="id" id="id" /></p>
+                <p>비밀번호ㅣ<input type="text" name="pw" id="pw" style="-webkit-text-security: disc;" /></p>
+                <p id="bt">
+                    <input type="submit" id="logu" value="들어가기" />
+                    <input type="button" id="register" value="회원가입" onclick="Register()" />
+                </p>
+            </form> 
+        </section>
+    </div>
+    <script>
+        function AD() {
+            location.href="https://blog.naver.com/kmd70117";
+        }
+
+        function Home() {
+            location.href="./index.html";
+        }
+
+        function Register() {
+            location.href="./register.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.eot);
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.eot?#iefix);
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.woff2);
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.woff);
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.ttf);
+
+        body {
+            width: 1500px;
+            height: 1000px;
+            margin: auto;
+            font-family: NanumSquareRound;
+            background-image: url('../img/BG.jpg');
+		    background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .main {
+            width: 1500px;
+            height: 800px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header {
+            height: 100px;
+            background: linear-gradient(to right bottom, rgba(194, 224, 227, 0.9), rgba(255, 255, 255, 0.8));
+            border: 5px solid white;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            line-height: 7em;
+        }
+
+        .header > h1 {
+            display: inline;
+            color: white;
+            font-size: 60px;
+        }
+
+        section {
+            background-color: rgba(236, 226, 241, 0.6);
+            margin: 10px;
+            border: 3px solid white;
+        }
+
+        section, .LOG {
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        section > p {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        #subtitle {
+            background-color: rgb(250, 250, 250, 0);
+            text-align: center;
+            display: inline-block;
+            margin: auto;
+            padding: 0;
+        }
+
+        #subtitle > img {
+            display: inline;
+            margin: 9px 0 0 0;
+        }
+
+        #subtitle > h1 {
+            color: white;
+            font-size: 35px;
+            background-color: rgba(250, 250, 250, 0);
+        }
+
+        .LOG {
+            height: 426.6px;
+            width: 900px;
+            display: flex;
+        }
+
+        form { /* log */
+            text-align: center;
+            font-size: 25px;
+            margin: auto;
+        }
+
+        input {
+            height: 35px;
+            font-size: 20px;
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        #bt > input {
+            background-color: rgba(245, 245, 245, 0.9);
+            width: 170px;
+            margin: 0 0 0 15px;
+        }

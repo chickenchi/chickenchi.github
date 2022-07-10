@@ -1,0 +1,204 @@
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.eot);
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.eot?#iefix);
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.woff2);
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.woff);
+@import url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumSquareRound.ttf);
+
+        body {
+            font-family: NanumSquareRound;
+            text-align: center;
+            background-image: url('../img/BG.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1500px;
+            height: 800px;
+            margin: auto;
+        }
+
+        .main {
+            height: 100%;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .main > h1 {
+            display: flex;
+        }
+
+        .header {
+            height: 100px;
+            background: linear-gradient(to right bottom, rgba(194, 224, 227, 0.9), rgba(255, 255, 255, 0.8));
+            border: 5px solid white;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            line-height: 7em;
+        }
+
+        .header > h1 {
+            display: inline;
+            color: white;
+            font-size: 60px;
+        }
+
+        .header > ul {
+            display: inline-block;
+            margin: 0 10px 10px 10px;
+            color: white;
+            list-style-type: none;
+            font-size: 20px;
+        }
+
+        .header > ul > li {
+            margin: 0 0 0 30px;
+            display: inline;
+        }
+
+        #subtitle > h1 {
+            display: inline;
+            color: white;
+            background-color: rgba(250, 250, 250, 0);
+            font-size: 25px;
+            font-weight: 400px;
+        }
+
+        #login {
+            color: white;
+        }
+
+        #developer {
+            color: white;
+        }
+
+        #setting {
+            color: white;
+        }
+
+        @keyframes lg {
+            from {
+                color: white;
+            }
+            to {
+                color: rgb(250, 0, 0);
+            }
+        }
+
+        #login:hover {
+            animation-name: lg;
+            animation-duration: 1s;
+        }
+
+        @keyframes dv {
+            from {
+                color: white;
+            }
+            to {
+                color: rgb(0, 0, 250);
+            }
+        }
+
+        #developer:hover {
+            animation-name: dv;
+            animation-duration: 1s;
+        }
+
+        @keyframes st {
+            from {
+                color: white;
+            }
+            to {
+                color: rgb(5, 5, 5);
+            }
+        }
+
+        #setting:hover {
+            animation-name: st;
+            animation-duration: 1s;
+        }
+
+        section {
+            background-color: rgba(250, 250, 250, 0.6);
+            margin: 10px;
+            padding: 5px;
+            border: 3px solid white;
+            text-align: center;
+        }
+
+        section > h1 {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        input {
+            text-align: block;
+            background-color:rgba(150, 150, 150, 1);
+            width: 100%;
+            height: 100%;
+        }
+
+        input:hover {
+            background-color:rgba(150, 150, 150, 0.3);
+        }
+
+        #subtitle > img {
+            display: inline;
+            margin: 9px 0 0 0;
+        }
+
+        .GR {
+            width: 40%;
+            display: inline-block;
+            background-color:rgba(0, 0, 100, 0.3);
+        }
+
+        .VS {
+            width: 40%;
+            display: inline-block;
+            background-color:rgba(2, 2, 2, 0.3);
+        }
+
+        .FW {
+            width: 40%;
+            display: inline-block;
+            background-color:rgba(100, 0, 0, 0.3);
+        }
+
+        .CL {
+            width: 40%;
+            display: inline-block;
+            background-color:rgba(0, 100, 0, 0.3);
+        }
+
+        .BB {
+            width: 80%;
+            display: inline-block;
+            background-color:rgba(253, 253, 253, 0.3);
+        }
+
+        #grammar > p {
+            text-align: center;
+        }
+
+        footer {
+            height: 100px;
+        }
+
+        footer > p {
+            margin: 5;
+            padding: 0;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        #subtitle {
+            text-align: left center;
+            display: flex;
+            line-height: 100%;
+            margin: auto;
+            padding: 0;
+        }
+
+        #complain {
+            color: white;
+            text-align: center;
+        }
