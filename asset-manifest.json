@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chickenchi.github.io/static/css/main.0d63e9f4.css",
+    "main.js": "/chickenchi.github.io/static/js/main.57446f88.js",
+    "static/js/787.d1d4a2c2.chunk.js": "/chickenchi.github.io/static/js/787.d1d4a2c2.chunk.js",
+    "static/media/Game.mp3": "/chickenchi.github.io/static/media/Game.2fb2da9013ff295786a5.mp3",
+    "static/media/Start.mp3": "/chickenchi.github.io/static/media/Start.bf6930adcc6f84f47c21.mp3",
+    "static/media/Died.mp3": "/chickenchi.github.io/static/media/Died.f5a6eb528f79cf7887b6.mp3",
+    "static/media/KungKung.mp3": "/chickenchi.github.io/static/media/KungKung.617035b5d1da25435a73.mp3",
+    "static/media/TypeSound.mp3": "/chickenchi.github.io/static/media/TypeSound.f3d8d568566d34882f17.mp3",
+    "static/media/TypeSoundPower.mp3": "/chickenchi.github.io/static/media/TypeSoundPower.918a525ea5c6348a135e.mp3",
+    "static/media/Wrong.mp3": "/chickenchi.github.io/static/media/Wrong.4cf918e591eb40c23088.mp3",
+    "index.html": "/chickenchi.github.io/index.html",
+    "main.0d63e9f4.css.map": "/chickenchi.github.io/static/css/main.0d63e9f4.css.map",
+    "main.57446f88.js.map": "/chickenchi.github.io/static/js/main.57446f88.js.map",
+    "787.d1d4a2c2.chunk.js.map": "/chickenchi.github.io/static/js/787.d1d4a2c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d63e9f4.css",
+    "static/js/main.57446f88.js"
+  ]
+}
